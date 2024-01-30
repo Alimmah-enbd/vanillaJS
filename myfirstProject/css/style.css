@@ -1,0 +1,375 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*-------------
+header
+--------------*/
+.header
+{
+    height: 100vh;
+    background-image: url(../images/header.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+}
+
+.header-content{
+    padding-top: 250px;
+}
+
+.header-content span
+{
+    font-size: 20px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.header-content h1
+{
+    margin: 20px 0px;
+    font-size: 70px;
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+}
+
+.header-content p
+{
+    font-size: 24px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.btn{
+    margin-top: 40px;
+    padding: 15px 28px;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.btn1
+{
+    border: 2px solid #8e7754;
+    background-color: #8e7754;
+    color: #fff;
+    font-weight: bold;
+}
+
+.btn2
+{
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-weight: bold;
+}
+
+/*----------------
+about
+----------------*/
+.about
+{
+    width: 85%;
+    margin: auto;
+    padding: 100px 0px;
+}
+
+.about-photo
+{
+    width: 50%;
+    float: left;
+    padding-right: 80px;
+}
+
+.about-photo img
+{
+    width: 100%;
+}
+
+.about-desc
+{
+    width: 50%;
+    float: right;
+    padding-top: 70px;
+}
+
+.about-desc h2
+{
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #303030;
+    font-size: 30px;
+}
+
+.about-desc p
+{
+    color: #808080;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.who-list
+{
+    padding: 40px 20px;
+}
+
+.who-list li
+{
+    margin-bottom: 15px;
+    color: #808080;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 18px;
+}
+.clr
+{
+    clear: both;
+}
+
+/*----------------
+location
+----------------*/
+.location
+{
+    background-color: #f8f8f8;
+
+}
+.location-content
+{
+    width: 85%;
+    margin: auto;
+    padding: 100px 0px;
+}
+
+.location-photo
+{
+    width: 50%;
+    float: right;
+   
+}
+
+.location-photo img
+{
+    width: 100%;
+}
+
+.location-desc
+{
+    width: 50%;
+    float: left;
+    padding-top: 80px;
+    padding-right: 50px;
+}
+
+.location-desc h2
+{
+    margin-bottom: 30px;
+    font-weight: 300;
+    font-family: 'Alegreya', serif;
+    color: #303030;
+    font-size: 28px;
+}
+
+.location-desc p
+{
+    color: #808080;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 17px;
+    line-height: 35px;
+    font-weight: 300;
+}
+
+/*----------------
+our baking
+----------------*/
+
+.our-baking
+{
+    width: 85%;
+    margin: auto;
+    padding: 100px 0px;
+}
+
+.our-baking h2
+{
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 300;
+    font-family: 'Alegreya', serif;
+    color: #303030;
+
+}
+
+.our-baking p
+{
+    margin-bottom: 70px;  
+    color: #808080;
+    font-family: 'Alegreya Sans', sans-serif;
+    text-align: center;
+}
+
+.our-baking-blog
+{
+    width: 33.3333%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+}
+
+.our-baking-blog img
+{
+    width: 100%;
+}
+
+.our-baking-blog h3
+{
+    margin-top: 30px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    font-family: 'Alegreya', serif;
+}
+
+.our-baking-blog p
+{
+    line-height: 30px;
+    font-size: 17px;
+    font-weight: 200;
+}
+
+/*----------------
+location
+----------------*/
+.contact
+{
+    background-color: #f8f8f8;
+
+}
+.contact-content
+{
+    width: 85%;
+    margin: auto;
+    padding: 100px 0px;
+}
+
+.contact-map
+{
+    width: 50%;
+    float: right;
+}
+
+.contact-desc
+{
+    width: 50%;
+    float: left;
+    padding-top: 20px;
+    padding-right: 50px;
+}
+
+.contact-desc h2
+{
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #303030;
+    font-size: 32px;
+}
+
+.contact-desc p
+{
+    color: #808080;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 17px;
+    line-height: 35px;
+    margin-top: 20px;
+}
+.contact-list
+{
+    padding: 30px 20px;
+}
+
+.contact-list li
+{
+    margin-bottom: 20px;
+    color: #808080;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 18px;
+}
+
+/*------------------
+footer
+------------------*/
+.footer
+{
+    background-color: #403d38;
+}
+
+.footer-content
+{
+    width: 85%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.footer-info
+{
+    width: 25%;
+    float: left;
+    padding-right: 20px;
+}
+
+.footer-info h3
+{
+    color: #fff;
+    margin-bottom: 30px;
+    font-weight: 300;
+    font-family: 'Alegreya', serif;
+}
+
+.footer-info p
+{
+    color: #969696;
+    line-height: 28px;
+    font-weight: 300;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.footer-list
+{
+    line-height: 40px;
+    color: #969696;
+    font-family: 'Alegreya Sans', sans-serif;
+    padding-left: 20px;
+}
+
+.footer-list li
+{
+    margin-bottom: 10px;
+    border-bottom: 1px solid #5f5f5f;
+}
+
+.footer-list li.last
+{
+    border-bottom: none;
+}
+
+.footer-logo
+{
+    text-align: center;
+    padding: 60px 0px;
+    background-color: #353330;
+}
+
+.footer-logo img
+{
+    width: 25%;
+}
+
+.footer-logo p
+{
+    color: #969696;
+    font-family: 'Alegreya Sans', sans-serif;
+    padding-top: 30px;
+}
